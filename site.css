@@ -1,6 +1,6 @@
 
 * 									{ margin: 0; padding: 0; }
-body								{ font: 24px Helvetica, Sans-Serif; } 
+body								{ font: 24px Helvetica, Fantasy; } 
 #page-wrap							{ 
    									margin: 0 auto; 
    									padding: 0.5em 0 0.5em 0; 
@@ -64,7 +64,7 @@ ul.dropdown li:hover > ul 			{ visibility: visible; }
 /**************************/
 *, *:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body { background: #fff; color: #566473; font-size: 100%; line-height: 1.25; font-family: 'Lato', sans-serif; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { background: #1D1C1E; color: #566473; font-size: 100%; line-height: 1.25; font-family: 'Lato', fantasy; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 /***************/
 /***** SVG *****/
@@ -77,11 +77,11 @@ body { background: #fff; color: #566473; font-size: 100%; line-height: 1.25; fon
 .sleekslider { width: 100%; height: 600px; position: relative; display: block; overflow: hidden; }
 .sleekslider .slide { position: absolute; top: 0; left: 0; width: 100%; height: 600px; background-repeat: no-repeat; background-position: center center; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; z-index: 1; content: ""; }
 .sleekslider .slide.active { z-index: 3; }
-.sleekslider .bg-1 { background-image: url("../wip1/images/wallhaven-3178.jpg"); }
-.sleekslider .bg-2 { background-image: url("../wip1/images/wallhaven-16270.jpg"); }
-.sleekslider .bg-3 { background-image: url("../wip1/images/wallhaven-12018.jpg"); }
-.sleekslider .bg-4 { background-image: url("../wip1/images/wallhaven-3178.jpg"); }
-.sleekslider .bg-5 { background-image: url("../wip1/images/wallhaven-10742.jpg"); }
+.sleekslider .bg-1 { background-image: url("../images/wallhaven-3178.jpg"); }
+.sleekslider .bg-2 { background-image: url("../images/wallhaven-16270.jpg"); }
+.sleekslider .bg-3 { background-image: url("../images/wallhaven-12018.jpg"); }
+.sleekslider .bg-4 { background-image: url("../images/wallhaven-3178.jpg"); }
+.sleekslider .bg-5 { background-image: url("../images/wallhaven-10742.jpg"); }
 .sleekslider .tab-container { max-width: 1200px; margin: 0 auto; }
 .sleekslider .slide-container { max-width: 1200px; margin: 0 auto; position: relative; height: 100%; }
 .sleekslider .slide-content { z-index: 50; position: absolute; bottom: 30%; left: 0; padding: 0 20px; }
